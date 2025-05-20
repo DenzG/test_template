@@ -65,8 +65,8 @@ function remove_comments_php() {
 function jsmin() {
     return (
         src(["src/assets/js/**/*.js"])
-            // .pipe(terser())
-            // .pipe(jsobs())
+            .pipe(terser())
+            .pipe(jsobs())
             .pipe(dest("dist/assets/js"))
     );
 }

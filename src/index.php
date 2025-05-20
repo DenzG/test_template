@@ -11,7 +11,7 @@ include_once("./connect/session_check.php");
 <main>
 	<!--  Your Contents here -->
 	  <div class="text-center">
-		<p class="fs-4 text-primary">Welcome to <?php echo $site_name; ?></p>
+		<p class="text-7xl text-blue-700">Welcome to <?php echo $site_name; ?></p>
 	  </div>
 </main>
 
